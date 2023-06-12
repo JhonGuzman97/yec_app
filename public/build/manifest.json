@@ -1,0 +1,25 @@
+{
+  "public/img/fondo.jpg": {
+    "file": "assets/fondo-c2564e27.jpg",
+    "src": "public/img/fondo.jpg"
+  },
+  "resources/css/app.scss": {
+    "file": "assets/app-be2f97ba.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/js/app.css": {
+    "file": "assets/app-be2f97ba.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/js/app.js": {
+    "assets": [
+      "assets/fondo-c2564e27.jpg"
+    ],
+    "css": [
+      "assets/app-be2f97ba.css"
+    ],
+    "file": "assets/app-077d60b0.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}
