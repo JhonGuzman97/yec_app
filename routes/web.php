@@ -1,5 +1,9 @@
 <?php
 
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\MenuController;
+use App\Http\Controllers\GoodfatherController;
+use App\Http\Controllers\YoReportoController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +17,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', HomeController::class)->name('welcome');
+Route::get('menu',[MenuController::class,'index'])->name('menu.index');
+Route::post('menu',[MenuController::class,'index'])->name('menu.index');
+Route::get('goodfather',[GoodfatherController::class,'index'])->name('goodfather.index');
+Route::post('goodfather',[GoodfatherController::class,'store'])->name('goodfather.store');
+Route::get('yoreporto',[YoReportoController::class,'index'])->name('yoreporto.index');
+Route::post('yoreporto',[YoReportoController::class,'store'])->name('yoreporto.store');

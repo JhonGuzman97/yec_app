@@ -1,0 +1,51 @@
+@import 'bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap');
+
+body{
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url("../../public/img/fondo.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Exo 2', sans-serif;;
+}
+header{
+    padding: 10px;
+}
+hr.new1 {
+    border-top: 5px solid #00AEBD;
+  }
+header h1{
+    font-weight: bold;
+}
+ 
+
+.logo{
+    width: 100px;
+    height: 150px;
+}
+
+.titulo{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 30px;
+    color:White
+}
+
+.icono-calificacion{
+    font-size: 40px;
+}
+
+.select2-container--default .select2-selection--multiple {
+    background-color: #212529;
+}
+span{
+    color: white;
+    border: none;
+    background-color: #212529;
+}
+
+.importante{
+    font-weight: bold;
+    color: #00AEBD;
+}
